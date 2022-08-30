@@ -15,15 +15,26 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision to validate it (them).
+* I suspect that leaves containing powdery mildew has clear white dots on them.
+    - I will study an avarge image to find out.
 
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualizations and ML tasks.
+* Business requirement 1: Data Visualization.
+    - The mean and standard deviation image for helthy and unhealthy leaves will be available to display.
+    - The avarage image of a healthy leave VS an unhealthy leave will be available to display.
+    - An image montage of both healthy or unhealthy leaves will be available to display.
+
+* Business requirement 2: Classification.
+    - A binary classifier will be built to generate reports.
+    - Making predictions whether a leave is healthy or not will be possible.
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualized a ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+* We want an ML model to predict from an image if a cherry leave is healthy or not. It is a binary classification model.
+* The ideal outcome is to provide Farmy & Foods with a tool that can predict if a cherry leave is healthy or not, today they do that manually and it is very time consuming.
+* The model will provide an accuracy of 97 % or above.
+* The model output is an alert box that tells the user if the leave is healthy or contains powdery mildew.
 
 
 ## Dashboard Design
@@ -53,21 +64,14 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 ## Credits 
 
-* In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Inspiration and good examples from CodeInstitutes [walkthrough project](https://github.com/Code-Institute-Org/WalkthroughProject01/)
 
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
-
-
-## Acknowledgements (optional)
-* In case you would like to thank the people that provided support through this project.
